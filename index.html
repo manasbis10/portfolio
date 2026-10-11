@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#work">Skip to work</a>
+    <a class="skip-link" href="#experience">Skip to experience</a>
     <header class="nav">
-      <a class="logo" href="#top"><span>MK</span> Manas</a>
+      <a class="logo" href="#top"><span>MK</span> Manas Kumar Biswas</a>
       <nav>
         <a href="#experience">Experience</a>
-        <a href="#work">Work</a>
+        <a href="#awards">Awards</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -38,7 +38,7 @@
           Cognizant. M.Tech in Computer Science from IIIT Hyderabad.
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#work">See selected work</a>
+          <a class="btn primary" href="#experience">See experience</a>
           <a class="btn ghost" href="mailto:manasbis10@gmail.com">Email me</a>
         </div>
         <div class="hero-meta"><span>01 / 04</span><span class="meta-line"></span><span>Backend · Cloud · Systems</span></div>
@@ -49,62 +49,26 @@
           <h2>Experience</h2>
         </div>
         <div class="jobs">
-          <article class="job">
-            <p class="tag">June 2025 – Present · Bengaluru</p>
-            <h3>Software Engineer, Oleria Corporation</h3>
-            <p>
-              Built scalable SaaS integrations (Workday, Google Drive, Oracle
-              HCM) with REST APIs and microservices, ingesting data for 250K+
-              accounts and 1M+ resources. Shipped production remediation
-              workflows on AWS Step Functions and ECS, plus checkpointing that
-              cut redundant reprocessing by 60–70%.
-            </p>
+          <article class="job job-featured">
+            <div class="job-date"><p class="tag">June 2025 – Present</p><span>Bengaluru</span></div>
+            <div class="job-body"><div class="job-title"><h3>Software Engineer</h3><span>Oleria Corporation</span></div>
+              <ul class="job-points">
+                <li>Built production remediation workflows on AWS Step Functions and ECS to automate security actions across identity systems serving 250K+ accounts and 1M+ resources.</li>
+                <li>Implemented checkpointing and recovery for distributed ECS workflows, reducing redundant reprocessing by 60–70% and improving reliability of long-running orchestration pipelines.</li>
+                <li>Developed an on-prem agent remediation protocol from scratch for secure execution inside customer environments.</li>
+                <li>Contributed to CDC pipelines for real-time data synchronization and change tracking across distributed systems using Kafka and messaging queues.</li>
+                <li>Built an agentic workflow using reusable skills and LLMs, reducing manual SaaS plugin implementation effort by 40–50%.</li>
+              </ul>
+            </div>
           </article>
           <article class="job">
             <p class="tag">Nov 2020 – Sept 2022 · Hyderabad</p>
-            <h3>Programmer Analyst, Cognizant</h3>
-            <p>
-              Wrote and optimized 10+ Google SQL scripts for multi-client
-              databases, improving query performance by about 30%. Worked on a
-              .NET MVC full-stack app in C#, with backend logic, UI, and clean
-              API design.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="work" class="section">
-        <div class="section-head">
-          <h2>Selected work</h2>
-          <p>Recent production work and systems projects.</p>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <p class="tag">Go · AWS · Kafka</p>
-            <h3>SaaS integrations at Oleria</h3>
-            <p>
-              Integrations and CDC pipelines across identity systems, with an
-              on-prem agent for secure remediation. Also built an LLM agentic
-              workflow that cut SaaS plugin implementation effort by 40–50%.
-            </p>
-          </article>
-          <article class="card">
-            <p class="tag">C++ · TCP · Distributed systems</p>
-            <h3>Peer-to-peer file sharing</h3>
-            <p>
-              Decentralized P2P sharing with multi-tracker sync, peer
-              discovery, and parallel downloads. SHA-1 chunk integrity and
-              multi-threaded transfers.
-            </p>
-          </article>
-          <article class="card">
-            <p class="tag">Python · Pandas · NumPy</p>
-            <h3>Movie recommender</h3>
-            <p>
-              Association-rule recommendations on MovieLens 100k using Apriori
-              and FP-Growth. Visualized frequent pairings so the rules were
-              easy to inspect.
-            </p>
+            <div class="job-body"><div class="job-title"><h3>Programmer Analyst</h3><span>Cognizant</span></div>
+              <ul class="job-points">
+                <li>Developed and optimized 10+ complex Google SQL scripts for multi-client databases, improving query performance by about 30%.</li>
+                <li>Worked on a .NET MVC full-stack application in C#, implementing backend business logic and UI components with clean API design.</li>
+              </ul>
+            </div>
           </article>
         </div>
       </section>
@@ -128,6 +92,26 @@
             <li>SQL, MongoDB, DynamoDB, Neo4j</li>
             <li>Git, GitHub Actions, LLMs</li>
           </ul>
+        </div>
+      </section>
+
+      <section id="awards" class="section awards">
+        <div class="section-head">
+          <h2>Awards &amp; achievements</h2>
+        </div>
+        <div class="awards-list">
+          <article class="award">
+            <span class="award-number">01</span>
+            <div><p class="tag">Oleria · Hackathon winner</p><h3>Access request blast-radius analysis</h3><p>Won a hackathon by building a blast-radius tool that shows what an employee could access or affect before an access request is approved.</p></div>
+          </article>
+          <article class="award">
+            <span class="award-number">02</span>
+            <div><p class="tag">PGEE</p><h3>Top 10 ranker</h3><p>Ranked among the top 10 candidates in the PGEE entrance examination.</p></div>
+          </article>
+          <article class="award">
+            <span class="award-number">03</span>
+            <div><p class="tag">GATE 2023 · Computer Science</p><h3>98.13 percentile</h3><p>Secured the 98.13 percentile in the Graduate Aptitude Test in Engineering.</p></div>
+          </article>
         </div>
       </section>
 
