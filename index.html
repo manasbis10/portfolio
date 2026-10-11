@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manas Kumar Biswas — Software Engineer</title>
+    <meta
+      name="description"
+      content="Software Engineer at Oleria. Go, AWS, distributed systems, and SaaS integrations."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#work">Skip to work</a>
+    <header class="nav">
+      <a class="logo" href="#top">Manas</a>
+      <nav>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Software Engineer · Oleria</p>
+        <h1>Building systems that scale.</h1>
+        <p class="lede">
+          I design SaaS integrations, remediation workflows, and distributed
+          data pipelines in Go and AWS. Previously a Programmer Analyst at
+          Cognizant. M.Tech in Computer Science from IIIT Hyderabad.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#work">See selected work</a>
+          <a class="btn ghost" href="mailto:manasbis10@gmail.com">Email me</a>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head">
+          <h2>Experience</h2>
+        </div>
+        <div class="jobs">
+          <article class="job">
+            <p class="tag">June 2025 – Present · Bengaluru</p>
+            <h3>Software Engineer, Oleria Corporation</h3>
+            <p>
+              Built scalable SaaS integrations (Workday, Google Drive, Oracle
+              HCM) with REST APIs and microservices, ingesting data for 250K+
+              accounts and 1M+ resources. Shipped production remediation
+              workflows on AWS Step Functions and ECS, plus checkpointing that
+              cut redundant reprocessing by 60–70%.
+            </p>
+          </article>
+          <article class="job">
+            <p class="tag">Nov 2020 – Sept 2022 · Hyderabad</p>
+            <h3>Programmer Analyst, Cognizant</h3>
+            <p>
+              Wrote and optimized 10+ Google SQL scripts for multi-client
+              databases, improving query performance by about 30%. Worked on a
+              .NET MVC full-stack app in C#, with backend logic, UI, and clean
+              API design.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Recent production work and systems projects.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="tag">Go · AWS · Kafka</p>
+            <h3>SaaS integrations at Oleria</h3>
+            <p>
+              Integrations and CDC pipelines across identity systems, with an
+              on-prem agent for secure remediation. Also built an LLM agentic
+              workflow that cut SaaS plugin implementation effort by 40–50%.
+            </p>
+          </article>
+          <article class="card">
+            <p class="tag">C++ · TCP · Distributed systems</p>
+            <h3>Peer-to-peer file sharing</h3>
+            <p>
+              Decentralized P2P sharing with multi-tracker sync, peer
+              discovery, and parallel downloads. SHA-1 chunk integrity and
+              multi-threaded transfers.
+            </p>
+          </article>
+          <article class="card">
+            <p class="tag">Python · Pandas · NumPy</p>
+            <h3>Movie recommender</h3>
+            <p>
+              Association-rule recommendations on MovieLens 100k using Apriori
+              and FP-Growth. Visualized frequent pairings so the rules were
+              easy to inspect.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I am a software engineer at Oleria in Bengaluru, focused on
+            backend systems, cloud infrastructure, and automation. I completed
+            an M.Tech in Computer Science at IIIT Hyderabad (2023–2025) after a
+            B.Tech at GCELT, Kolkata. I scored 98.13 percentile in GATE 2023
+            CS. On the side I practice algorithms — LeetCode Knight (1931) and
+            Codeforces Pupil (1283).
+          </p>
+          <ul class="skills">
+            <li>Go, Java, Python, C++</li>
+            <li>AWS, Kafka, microservices</li>
+            <li>SQL, MongoDB, DynamoDB, Neo4j</li>
+            <li>Git, GitHub Actions, LLMs</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Open to interesting backend and systems work.</p>
+        </div>
+        <div class="contact-row">
+          <a href="mailto:manasbis10@gmail.com">manasbis10@gmail.com</a>
+          <a href="https://github.com/manasbis10" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/manasbis10" rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://leetcode.com/manasbis10" rel="noreferrer">LeetCode</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Manas Kumar Biswas.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
