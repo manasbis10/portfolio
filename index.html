@@ -22,8 +22,9 @@
       <a class="logo" href="#top"><span>MK</span> Manas Kumar Biswas</a>
       <nav>
         <a href="#experience">Experience</a>
-        <a href="#awards">Awards</a>
         <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -39,9 +40,10 @@
         </p>
         <div class="hero-actions">
           <a class="btn primary" href="#experience">See experience</a>
+          <a class="btn ghost" href="./Manas_resume_SDE.pdf" target="_blank" rel="noopener">View résumé <span class="file-label">(PDF)</span></a>
           <a class="btn ghost" href="mailto:manasbis10@gmail.com">Email me</a>
         </div>
-        <div class="hero-meta"><span>01 / 04</span><span class="meta-line"></span><span>Backend · Cloud · Systems</span></div>
+        <div class="hero-meta"><span>Software engineer</span><span class="meta-line"></span><span>Backend · Cloud · Systems</span></div>
       </section>
 
       <section id="experience" class="section">
@@ -80,10 +82,8 @@
         <div class="about-grid">
           <p>
             I am a software engineer at Oleria in Bengaluru, focused on
-            backend systems, cloud infrastructure, and automation. I completed
-            an M.Tech in Computer Science at IIIT Hyderabad (2023–2025) after a
-            B.Tech at GCELT, Kolkata. I scored 98.13 percentile in GATE 2023
-            CS. On the side I practice algorithms — LeetCode Knight (1931) and
+            backend systems, cloud infrastructure, and automation.
+            On the side I practice algorithms — LeetCode Knight (1931) and
             Codeforces Pupil (1283).
           </p>
           <ul class="skills">
@@ -92,6 +92,24 @@
             <li>SQL, MongoDB, DynamoDB, Neo4j</li>
             <li>Git, GitHub Actions, LLMs</li>
           </ul>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-head"><h2>Education</h2></div>
+        <div class="education-grid">
+          <article class="education-card">
+            <p class="tag">July 2023 – May 2025</p>
+            <h3>IIIT Hyderabad</h3>
+            <p>M.Tech in Computer Science &amp; Engineering</p>
+            <p class="institution">International Institute of Information Technology, Hyderabad</p>
+          </article>
+          <article class="education-card">
+            <p class="tag">July 2016 – July 2020</p>
+            <h3>GCELT, Kolkata</h3>
+            <p>B.Tech in Computer Science &amp; Engineering</p>
+            <p class="institution">Government College of Engineering and Leather Technology, Kolkata</p>
+          </article>
         </div>
       </section>
 
@@ -112,6 +130,34 @@
             <span class="award-number">03</span>
             <div><p class="tag">GATE 2023 · Computer Science</p><h3>98.13 percentile</h3><p>Secured the 98.13 percentile in the Graduate Aptitude Test in Engineering.</p></div>
           </article>
+        </div>
+        <div class="access-demo" aria-labelledby="demo-title">
+          <p class="tag">Try the idea · Illustrative demo</p>
+          <h3 id="demo-title">What does this access unlock?</h3>
+          <p>A simplified example inspired by the hackathon concept, using fictional resources. Choose a requested permission to explore its reach before approval.</p>
+          <div id="demo-controls" hidden>
+            <label for="permission">Requested permission</label>
+            <select id="permission">
+              <option value="viewer">Project viewer</option>
+              <option value="editor">Project editor</option>
+              <option value="admin">Workspace admin</option>
+            </select>
+          </div>
+          <noscript><p>Enable JavaScript to compare permissions. The example below shows Project viewer access.</p></noscript>
+          <div class="access-graph" aria-label="Employee access through the requested role">
+            <div class="graph-node employee-node">Employee<span>Alex · Engineering</span></div>
+            <span class="graph-arrow" aria-hidden="true">→</span>
+            <div class="graph-node role-node">Requested role<strong id="graph-role">Project viewer</strong></div>
+            <span class="graph-arrow" aria-hidden="true">→</span>
+            <ul class="resource-nodes">
+              <li data-resource="docs" class="reachable">Project documents<span>Read</span></li>
+              <li data-resource="code">Source repository<span>No access</span></li>
+              <li data-resource="deploy">Deployment settings<span>No access</span></li>
+              <li data-resource="members">Workspace members<span>No access</span></li>
+            </ul>
+          </div>
+          <p id="access-summary" class="access-summary" role="status" aria-live="polite" aria-atomic="true">Project viewer reaches 1 of 4 resources: read project documents. No code, deployment, or membership access.</p>
+          <p class="demo-note">Highlighted resources are reachable through the selected role. This demo previews access; it grants no permissions.</p>
         </div>
       </section>
 
